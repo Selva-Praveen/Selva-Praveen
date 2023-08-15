@@ -1,0 +1,10 @@
+def diagonalDifference(arr):
+    l=[ ]
+    for i in range(n):
+        l.append(arr[i][i])
+    m=[ ]
+    c=0
+    for i in range(n):
+        m.append(arr[i][-1-c])
+        c+=1
+    return(abs(sum(l)-sum(m)))
