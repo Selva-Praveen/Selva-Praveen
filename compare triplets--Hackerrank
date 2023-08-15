@@ -1,0 +1,11 @@
+def compareTriplets(a, b):
+    l=[]
+    m=[]
+    for i in range(len(a)):
+        if a[i]>b[i]:
+            l.append(1)
+        if a[i]<b[i]:
+            m.append(1)
+    total=[sum(l),sum(m)]
+    return total
+    
